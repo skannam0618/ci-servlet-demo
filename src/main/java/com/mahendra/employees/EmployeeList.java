@@ -18,6 +18,7 @@ public class EmployeeList {
         employeeList.add(new Employee("Joana","Sanders","11-11-1976","Manager","Marketing","joana.sanders@abc.com"));
         employeeList.add(new Employee("John","Drake","18-08-1988","Coordinator","Finance","john.drake@abc.com"));
         employeeList.add(new Employee("Samuel","Williams","22-03-1985","Coordinator","Finance","samuel.williams@abc.com"));
+        employeeList.add(new Employee("test-jenkins","apache-user","01-01-1995","Coordinator","IT","test-jenkins.apache-user@abc.com"));
     }
     
     public static List <Employee> getInstance(){
